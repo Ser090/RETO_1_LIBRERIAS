@@ -12,6 +12,6 @@ package utilidades;
 public class Message {
 
     private Enum mensaje;
-    private User usuario;
+    private Object object;
 
 }

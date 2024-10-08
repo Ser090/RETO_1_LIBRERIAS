@@ -9,9 +9,14 @@ package utilidades;
  *
  * @author 2dam
  */
-public interface Signable {
+public enum MessageType {
 
-    public Message signUp(User user);
+    SIGN_IN_REQUEST,
+    SIGN_UP_REQUEST,
+    OK_RESPONSE,
+    SIGNIN_ERROR,
+    SIGNUP_ERROR,
+    USER_EXIST_ERROR,
+    BAD_RESPONSE
 
-    public Message signIn(User user);
 }
