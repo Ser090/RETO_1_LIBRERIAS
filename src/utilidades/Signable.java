@@ -9,9 +9,9 @@ package utilidades;
  *
  * @author 2dam
  */
-public class Mensaje {
+public interface Signable {
 
-    private Enum mensaje;
-    private User usuario;
+    public Message signUp(User user);
 
+    public Message signIn(User user);
 }
