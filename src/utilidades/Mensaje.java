@@ -9,12 +9,12 @@ package utilidades;
  *
  * @author 2dam
  */
-public class Message {
+public class Mensaje {
 
-    private MessageType type;
+    private MensajeType type;
     private Object object;
 
-    public Message(MessageType type, Object object) {
+    public Mensaje(MensajeType type, Object object) {
         this.type = type;
         this.object = object;
     }
@@ -23,7 +23,7 @@ public class Message {
         return type;
     }
 
-    public void setType(MessageType type) {
+    public void setType(MensajeType type) {
         this.type = type;
     }
 

@@ -9,7 +9,7 @@ package utilidades;
  *
  * @author 2dam
  */
-public enum MessageType {
+public enum MensajeType {
 
     SIGN_IN_REQUEST,
     SIGN_UP_REQUEST,
