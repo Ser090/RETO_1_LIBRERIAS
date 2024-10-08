@@ -1,10 +1,10 @@
-package utilidades;
+gpackage utilidades;
 
 /**
  *
  * @author Urko
  */
-public enum MensajeType {
+public enum MessageType {
 
     SIGN_IN_REQUEST,
     SIGN_UP_REQUEST,
