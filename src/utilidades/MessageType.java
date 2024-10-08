@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package utilidades;
 
 /**
  *
- * @author 2dam
+ * @author Urko
  */
 public enum MessageType {
 
@@ -17,6 +12,9 @@ public enum MessageType {
     SIGNIN_ERROR,
     SIGNUP_ERROR,
     USER_EXIST_ERROR,
-    BAD_RESPONSE
+    BAD_RESPONSE,
+    LOGIN_OK,
+    LOGIN_EXIST_ERROR,
+    SQL_ERROR
 
 }
