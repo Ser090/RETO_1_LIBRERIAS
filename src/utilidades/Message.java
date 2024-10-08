@@ -9,7 +9,7 @@ package utilidades;
  *
  * @author 2dam
  */
-public class Mensaje {
+public class Message {
 
     private Enum mensaje;
     private User usuario;

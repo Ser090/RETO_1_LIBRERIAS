@@ -11,8 +11,8 @@ package utilidades;
  */
 public interface Signable {
 
-    public Mensaje signIn(User user);
+    public Message signIn(User user);
 
-    public Mensaje signUp(User user);
+    public Message signUp(User user);
 
 }
