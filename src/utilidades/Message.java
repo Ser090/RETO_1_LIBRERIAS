@@ -2,7 +2,7 @@ package utilidades;
 
 /**
  *
- * @author 2dam
+ * @author Urko
  */
 public class Message {
 

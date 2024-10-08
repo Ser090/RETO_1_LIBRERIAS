@@ -1,4 +1,4 @@
-gpackage utilidades;
+package utilidades;
 
 /**
  *
