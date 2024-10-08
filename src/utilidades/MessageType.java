@@ -17,6 +17,7 @@ public enum MessageType {
     SIGNIN_ERROR,
     SIGNUP_ERROR,
     USER_EXIST_ERROR,
-    BAD_RESPONSE
+    BAD_RESPONSE,
+    LOGIN_OK
 
 }
